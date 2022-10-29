@@ -1,0 +1,43 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/*:root{
+    background-image: url("C:\Users\somv9\Pictures\Saved Pictures\11-5.webp");
+} */
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 18px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    font-size: 20px;
+    width: 291px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container-fluid.img{
+    background-image: url(11-5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.img{
+    height: 95vh;
+}
+
